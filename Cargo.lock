@@ -100,6 +100,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "37ccbd214614c6783386c1af30caf03192f17891059cecc394b4fb119e363de3"
 
 [[package]]
+name = "bundler"
+version = "0.1.0"
+dependencies = [
+ "libcontainer",
+]
+
+[[package]]
 name = "bytecheck"
 version = "0.6.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
